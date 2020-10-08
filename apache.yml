@@ -9,7 +9,7 @@
       state: present
     notify: start apache2
     
-  - name: copy file
+  - name: Deploy static website
     copy:
       src: index.html
       dest: /var/www/html/
